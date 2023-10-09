@@ -1,0 +1,239 @@
+body{
+    margin: 10px;
+    padding: 0;
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.scroll{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid rgb(128, 81, 0);
+    border-bottom: 5px solid rgb(175, 12, 82);
+}
+
+.nav{
+    border-left: 5px solid rgb(175, 12, 82);
+    border-right: 5px solid rgb(128, 81, 0);
+}
+
+.nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5f0c90;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.mypro{
+    text-align: center;
+    font-family: bradley hand, cursive;
+    color: rgb(35, 142, 142);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.mydetails{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.myimg{
+    min-width: 400px;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.myimg .imgsec {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.mydetails p{
+    line-height: 30px;
+    font-style: italic;
+}
+
+@media (max-width: 767.98px) {
+    .mydetails{
+        flex-direction: column;
+        text-align: center;
+    }
+    .myimg{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.myskills, .lang, .myprojects, .mysocial h2, .contact{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+table{
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    
+}
+
+table td{
+    text-align: center;
+    color: rgb(171, 111, 0);
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+.lang td{
+    color: #5f0c90;
+}
+
+.column {
+    float: left;
+    padding: 0 5%;
+    margin-bottom: 70px;
+    width: 40%;
+    height: 350px;
+  }
+  
+  .card {
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  .row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      padding-left: 0;
+    }
+  }
+
+.card{
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 100%;   
+}
+
+.card button{
+    width: 50%;
+    background: linear-gradient(to right, #7f90e7, #FC466B);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20%;   
+
+}
+
+.card a{
+    color: rgb(246, 255, 0);
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    
+}
+.mysocial{
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.links{
+    margin: 30px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.links i{
+    width: 200px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.links a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0 20px 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .links {
+      width: 100%;
+      display: block;
+      padding-left: 0;
+    }
+
+    i{
+        margin-bottom: 30px;
+    }
+  }
+
+.contact input, textarea{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid;
+    border-image: 
+    linear-gradient(
+      to bottom,
+      rgb(35, 243, 208), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    
+}
+
+.contact #btn{
+    cursor: pointer;
+    background-color: white;
+}
+
+.home{
+    font-size: 50px;
+    position: fixed;
+    top: 10%;
+    right: 50px;
+}
+
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    color: #2946d4;
+    line-height: 30px;
+    background-color:rgb(255, 213, 213);
+    font-size: larger;
+    width: 100%;
+    
+}
